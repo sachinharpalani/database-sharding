@@ -14,8 +14,8 @@ odd_connection = mysql.connector.connect(
 even_connection = mysql.connector.connect(
         host="127.0.0.1",
         port=3306,
-        user="root",
-        password="alanwalker"
+        user="",
+        password=""
 )
 
 def get_connection(user_id):
